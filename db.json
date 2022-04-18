@@ -1,0 +1,267 @@
+{
+    "continents": [
+        {
+            "continentRef": "europa",
+            "continentName": "Europa",
+            "smallDescription": "O continente mais romantico do mundo",
+            "continentDescription": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+            "continentBannerImage": "https://images.unsplash.com/photo-1482401204742-eb3c31c24722?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=942&q=80",
+            "continentDetails": {
+                "countriesNumber": 50,
+                "languagesNumber": 234,
+                "famousCitiesNumber": 31
+            },
+            "famousCities": [
+                {
+                    "city": "Londres",
+                    "country":"Reino Unido",
+                    "flag": "https://cdn.pixabay.com/photo/2012/04/10/16/14/union-jack-26119_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "city": "Paris",
+                    "country":"França",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+                },
+                {
+                    "city": "Praga",
+                    "country":"República Tcheca",
+                    "flag": "https://cdn.pixabay.com/photo/2020/02/26/02/33/czechia-4880480_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "city": "Istambul",
+                    "country":"Turquia",
+                    "flag": "https://cdn.pixabay.com/photo/2016/10/27/12/55/turkish-flag-1774834_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1640681319367-2cb759a32a96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+                },
+                {
+                    "city": "Roma",
+                    "country":"Itália",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=796&q=80"
+                },
+                {
+                    "city": "Barcelona",
+                    "country":"Espanha",
+                    "flag": "https://cdn.pixabay.com/photo/2012/04/16/12/06/flag-35697_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1629793815862-723ed95c2363?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                },
+                {
+                    "city": "Milão",
+                    "country":"Itália",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1610016302534-6f67f1c968d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80"
+                },
+                {
+                    "city": "Amsterdam",
+                    "country":"Holanda",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/12/51/holland-160486_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                },
+                {
+                    "city": "Viena",
+                    "country":"Áustria",
+                    "flag": "https://cdn.pixabay.com/photo/2015/11/04/14/07/flag-1022605_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1574607098642-db059ef9e6e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dmllbmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                },
+                {
+                    "city": "Berlim",
+                    "country":"Alemanha",
+                    "flag": "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1524551679824-cddc391cf611?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmVybGltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                },
+                {
+                    "city": "Veneza",
+                    "country":"Itália",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326_960_720.png",
+                    "image": "https://images.unsplash.com/photo-1531956966137-370d1710ba6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmVuZXphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                },
+                {
+                    "city": "Madri",
+                    "country":"Espanha",
+                    "flag": "https://cdn.pixabay.com/photo/2012/04/16/12/06/flag-35697_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Dublin",
+                    "country":"Irlanda",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/15/ireland-162323_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Florença",
+                    "country":"Itália",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Moscou",
+                    "country":"Rússia",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/17/russia-162400_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Atenas",
+                    "country":"Grécia",
+                    "flag": "https://cdn.pixabay.com/photo/2012/04/10/23/09/greece-26871_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Munique",
+                    "country":"Alemanha",
+                    "flag": "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Budapeste",
+                    "country":"Hungria",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/15/hungary-162317_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "São Petersburgo",
+                    "country":"Rússia",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/17/russia-162400_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Lisboa",
+                    "country":"Portugal",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/16/portugal-162394_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Bruxelas",
+                    "country":"Bélgica",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/14/belgium-162240_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Copenhague",
+                    "country":"Bélgica",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/14/belgium-162240_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Heraclião",
+                    "country":"Grécia",
+                    "flag": "https://cdn.pixabay.com/photo/2012/04/10/23/09/greece-26871_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Varsóvia",
+                    "country":"Polônia",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/16/poland-162393_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Cracóvia",
+                    "country":"Polônia",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/16/poland-162393_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Lviv",
+                    "country":"Ucrânia",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/17/ukraine-162450_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Frankfurt",
+                    "country":"Alemanha",
+                    "flag": "https://cdn.pixabay.com/photo/2012/04/12/23/52/germany-31017_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Estocolmo",
+                    "country":"Suécia",
+                    "flag": "https://cdn.pixabay.com/photo/2014/02/03/20/48/flag-257636_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Nice",
+                    "country":"França",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Porto",
+                    "country":"Portugal",
+                    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/16/portugal-162394_960_720.png",
+                    "image": ""
+                },
+                {
+                    "city": "Rodes",
+                    "country":"Grécia",
+                    "flag": "https://cdn.pixabay.com/photo/2012/04/10/23/09/greece-26871_960_720.png",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "continentRef": "america-do-norte",
+            "continentName": "América do Norte",
+            "smallDescription": "A parte norte do maior continente de norte a sul",
+            "continentDescription": "A América do Norte é dona de lugares incríveis, cheios de histórias, belezas naturais e atrações para todos os gostos, estilos e bolsos nela você vai encontrar cidades exuberantes, praias de tirar o fôlego, centros de compras, além de história, cultura e muita badalação.",
+            "continentBannerImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+            "continentDetails": {
+                "countriesNumber": 3,
+                "languagesNumber": 582,
+                "famousCitiesNumber": 12
+            }
+        },
+        {
+            "continentRef": "america-do-sul",
+            "continentName": "América do Sul",
+            "smallDescription": "A parte sul do maior continente de norte a sul",
+            "continentDescription": "Não importa se você está em busca de natureza, praia, cidade grande ou até ambientes históricos. A América do Sul é rica em lugares incríveis para serem conhecidos e explorados. Além do Cristo Redentor, no Rio de Janeiro, a América do Sul também é terra de outra das 7 Maravilhas do Mundo: Machu Picchu, no Peru. O local guarda lembranças e mistérios dos antigos Incas e atrai turistas do mundo inteiro. ",
+            "continentBannerImage": "https://images.unsplash.com/photo-1580619305218-8423a7ef79b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80",
+            "continentDetails": {
+                "countriesNumber": 12,
+                "languagesNumber": 456,
+                "famousCitiesNumber": 4
+            }
+        },
+        {
+            "continentRef": "asia",
+            "continentName": "Ásia",
+            "smallDescription": "O maior continete de todos!",
+            "continentDescription": "A Ásia é sinônimo de imensidão e diversidade. A região é enorme, apresentando destinos entre os mais incríveis de todo o mundo, com paisagens de tirar o fôlego, praias e mares de beleza ímpar, rica cultura, templos milenares, inabalável culto à religião, ilhas paradisíacas, gastronomia única e exótica.",
+            "continentBannerImage": "https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "continentDetails": {
+                "countriesNumber": 51,
+                "languagesNumber": 2322,
+                "famousCitiesNumber": 47
+            }
+        },
+        {
+            "continentRef": "oceania",
+            "continentName": "Oceania",
+            "smallDescription": "Encontre a beleza em seus territórios ultramarinos",
+            "continentDescription": "A Oceania também é dona de diversas belezas naturais de tirar o fôlego, como as Ilhas Fiji. Também é lá que fica localizada a ilha de Bora Bora, na Polinésia Francesa, destino de férias de famosos como Kim Kardashian. Além disso, o continente ainda surpreende com atrações fora do comum.",
+            "continentBannerImage": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1230&q=80",
+            "continentDetails": {
+                "countriesNumber": 14,
+                "languagesNumber": 1250,
+                "famousCitiesNumber": 3
+            }
+        },
+        {
+            "continentRef": "africa",
+            "continentName": "África",
+            "smallDescription": "Há quem diga que seja o berço do mundo",
+            "continentDescription": "Encontre atividades ligadas ao Ecoturismo. Além dos safáris, tão famosos e procurados por viajantes do mundo todo, a África do Sul, oferece algumas atividades tão radicais quanto.",
+            "continentBannerImage": "https://images.unsplash.com/photo-1535940360221-641a69c43bac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=866&q=80",
+            "continentDetails": {
+                "countriesNumber": 54,
+                "languagesNumber": 2110,
+                "famousCitiesNumber": 3
+            }
+        }
+    ]
+
+    
+
+}
