@@ -10,14 +10,13 @@ interface FamousCities{
 export function CitiesCard({city, country, flag, image}: FamousCities){
     return(
         <Flex
-         key={city}
          flexDir='column'
          w='256px'
          h='271px'
          border='1px solid rgba(255, 186, 8, 0.5)'
          borderRadius='4px'
         >
-            <Image src={image} width='100%' height='auto' />
+            <Image src={image} width='100%' height='170px' minH='170px' objectFit='cover' borderRadius='4px 4px 0 0 '/>
             <Flex 
              alignItems='center' 
              justifyContent='space-between' 

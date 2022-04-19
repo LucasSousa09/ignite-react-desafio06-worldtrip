@@ -25,7 +25,7 @@ export function OneHundredCities({famousCities}: OneHundredCitiesProps){
             <Subtitle text='Cidades +100'/>
             <SimpleGrid columns={4} mt='2.5rem' rowGap='3rem'>
                 {
-                    famousCities?.map(city => <CitiesCard  image={city.image} city={city.city} flag={city.flag} country={city.country} />)
+                    famousCities?.map(city => <CitiesCard key={city.city}  image={city.image} city={city.city} flag={city.flag} country={city.country} />)
                 }
             </SimpleGrid>
         </Flex>
