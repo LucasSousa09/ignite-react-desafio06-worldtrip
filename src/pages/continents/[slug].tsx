@@ -35,7 +35,7 @@ interface CurrentContinentInfoData{
 
 
 export default function Continents({data, continentUrl}: CurrentContinentInfoData){
-    const newData = data.map(data => {
+    const contientInfo = data.map(data => {
         if(data.continentRef === continentUrl){
             return data
         }
@@ -46,9 +46,9 @@ export default function Continents({data, continentUrl}: CurrentContinentInfoDat
             <Header />
             {
                 <Banner 
-                 bannerImgSrc={newData[0]?.continentBannerImage} 
-                 bannerImgAlt={newData[0]?.continentRef} 
-                 bannerTitle={newData[0]?.continentName}
+                 bannerImgSrc={contientInfo[0]?.continentBannerImage} 
+                 bannerImgAlt={contientInfo[0]?.continentRef} 
+                 bannerTitle={contientInfo[0]?.continentName}
                 />
             }
             <SimpleGrid w='80%' m='5rem auto' columns={2}>
@@ -56,11 +56,11 @@ export default function Continents({data, continentUrl}: CurrentContinentInfoDat
                  color='gray.dark-text'
                  fontSize='1.5rem'
                 >
-                    {newData[0]?.continentDescription}
+                    {contientInfo[0]?.continentDescription}
                 </Text>
-                <ContinentDetails continentDetails={newData[0]?.continentDetails}/>
+                <ContinentDetails continentDetails={contientInfo[0]?.continentDetails}/>
             </SimpleGrid>
-            <OneHundredCities famousCities={newData[0]?.famousCities}/>
+            <OneHundredCities famousCities={contientInfo[0]?.famousCities}/>
         </>
     )
 }
