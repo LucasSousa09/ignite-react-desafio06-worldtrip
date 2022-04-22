@@ -91,11 +91,6 @@ export function ContinentDetails({continentDetails}: ContinentDetailsProps){
                             <PopoverContent
                                 textAlign='left'
                             >
-                                <PopoverHeader
-                                    fontWeight='600'
-                                    fontSize='1.25rem'
-                                > cidades +100 
-                                </PopoverHeader>
                                 <PopoverBody
                                     fontWeight='500'
                                     fontSize='1rem'
