@@ -13,6 +13,7 @@ export function SliderImage({continentRef, continentName, imgSrc, smallDescripti
             as='a'
             href={`/continents/${continentRef}`}
             position='relative'
+            h={['250px','375px', '500px']}
             w='100%'
         >
             <Image 
@@ -33,8 +34,8 @@ export function SliderImage({continentRef, continentName, imgSrc, smallDescripti
                 fontWeight='700'
                 textAlign='center'
             >
-                <Text fontSize='3rem' marginBottom='0.5rem'> {continentName} </Text>
-                <Text fontSize='1.25rem'> {smallDescription} </Text>
+                <Text fontSize={['1.25rem','1.75rem','3rem']} marginBottom='0.5rem'> {continentName} </Text>
+                <Text fontSize={['.85rem','1rem','1.25rem']} > {smallDescription} </Text>
             </Box>
         </Flex>
     )

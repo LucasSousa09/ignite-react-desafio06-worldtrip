@@ -14,7 +14,7 @@ export function Banner({bannerImgSrc, bannerImgAlt, bannerTitle}: BannerProps ){
         <Flex
             position='relative'
             width='100%'
-            height={bannerImgSrc ? '500px' : '370px'}
+            height={[ '163px', '220px' ,bannerImgSrc ? '500px' : '370px']}
             flexDir='column'
             backgroundRepeat='no-repeat'
             backgroundPosition='center'
@@ -24,7 +24,7 @@ export function Banner({bannerImgSrc, bannerImgAlt, bannerTitle}: BannerProps ){
             <Image 
              src={bannerImgSrc ? bannerImgSrc : '/images/background.svg'}
              alt={bannerImgAlt ? bannerImgAlt : 'Céu estrelado'}
-             height={bannerImgSrc ? '500px' : '370px'}
+             height={['163px', '220px' ,bannerImgSrc ? '500px' : '370px']}
              width='100%'
              objectFit='cover'
              filter='brightness(0.85)'

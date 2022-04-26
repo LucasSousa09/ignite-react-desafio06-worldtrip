@@ -15,7 +15,7 @@ export function BannerContent({bannerTitle}: BannerContentProps){
                 left='0'
                 right='0'
                 bottom='0'
-                columns={2}
+                columns={[1,1,1,2]}
                 alignContent={bannerTitle ? 'flex-end' : 'center'}
                 justifyItems='center'
            

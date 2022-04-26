@@ -51,10 +51,10 @@ export default function Continents({data, continentUrl}: CurrentContinentInfoDat
                  bannerTitle={contientInfo[0]?.continentName}
                 />
             }
-            <SimpleGrid w='80%' m='5rem auto' columns={2}>
+            <SimpleGrid w={['90%','90%','80%']} m='5rem auto' columns={[1,1,1,2]}>
                 <Text
                  color='gray.dark-text'
-                 fontSize='1.5rem'
+                 fontSize={['1rem','1.25rem','1.5rem']}
                 >
                     {contientInfo[0]?.continentDescription}
                 </Text>

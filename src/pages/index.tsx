@@ -48,9 +48,7 @@ const Home = ({data}: ContinentInfoData) => {
          <Subtitle text="Vamos nessa?"/>
          <Subtitle text="Então escolha o seu continente"/>
        </Box>
-       <Box width="80%" backgroundColor='gray.700' mb='5rem'>
         <Slider continentInfoData={data}/>
-       </Box>
     </Flex>
   )
 }

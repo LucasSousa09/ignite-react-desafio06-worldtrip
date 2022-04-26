@@ -25,7 +25,7 @@ export function CitiesCard({city, country, flag, image}: FamousCities){
              m='0 auto'
             >
                 <Box>
-                    <Text fontSize='1.25rem' fontWeight='600' color='gray.dark-text'>{city}</Text>
+                    <Text mb='12px' fontSize='1.25rem' fontWeight='600' color='gray.dark-text'>{city}</Text>
                     <Text fontSize='1rem' fontWeight='500' color='gray.dark-info'>{country}</Text>
                 </Box>
                 <Box>

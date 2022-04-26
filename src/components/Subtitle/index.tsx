@@ -7,7 +7,7 @@ interface SubtitleProps{
 export function Subtitle({text}: SubtitleProps){
     return (
         <Text
-            fontSize='1.5rem'
+            fontSize={['1.25rem','1.5rem']}
             fontWeight='500'
             color='gray.dark-text'
         >

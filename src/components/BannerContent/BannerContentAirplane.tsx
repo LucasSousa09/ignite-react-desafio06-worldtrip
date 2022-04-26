@@ -7,6 +7,7 @@ interface BannerContentAirplaneProps {
 export function BannerContentAirplane({bannerTitle}: BannerContentAirplaneProps){
     return (
         <Flex
+            display={['none','none','none', 'flex']}
             h='370px'
             alignItems='flex-end'
         >
