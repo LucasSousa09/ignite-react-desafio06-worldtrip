@@ -18,7 +18,7 @@ O primeiro desafio do 4º módulo da trilha de React da Rocketseat
 
 ## Objetivo da aplicaçao
 
-- Um site de viajens que te ajuda a encontrar o melhor destino para sua próxima viagem
+- Um site de viagens que te ajuda a encontrar o melhor destino para sua próxima viagem
 - Uma adição exepcional para o portifólio de jovens devs
 
 ## Algumas fotos belíssimas da aplicação
