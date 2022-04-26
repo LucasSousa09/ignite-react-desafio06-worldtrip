@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# worldtrip
 
-## Getting Started
+O primeiro desafio do 4º módulo da trilha de React da Rocketseat
 
-First, run the development server:
+![image](https://github.com/LucasSousa09/worldtrip/blob/main/public/images/screenprints/worldtrip-homepage-1.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Técnologias utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- NextJs
+- Chakra
+- Typescript
+- Json Server
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Rodando a aplicação
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Execute 'yarn server' para rodar a api fake
+- Execute 'yarn dev' para rodar o front-end da aplicação
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Objetivo da aplicaçao
 
-## Learn More
+- Um site de viajens que te ajuda a encontrar o melhor destino para sua próxima viagem
+- Uma adição exepcional para o portifólio de jovens devs
 
-To learn more about Next.js, take a look at the following resources:
+## Algumas fotos belíssimas da aplicação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Página inicial
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![image](https://github.com/LucasSousa09/worldtrip/blob/main/public/images/screenprints/worldtrip-homepage-1.png)
+![image](https://github.com/LucasSousa09/worldtrip/blob/main/public/images/screenprints/worldtrip-homepage-2.png)
 
-## Deploy on Vercel
+- Página dos continentes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image](https://github.com/LucasSousa09/worldtrip/blob/main/public/images/screenprints/worldtrip-continentpage-1.png)
+![image](https://github.com/LucasSousa09/worldtrip/blob/main/public/images/screenprints/worldtrip-continentpage-2.png)
