@@ -1,4 +1,4 @@
-import type { GetStaticProps, NextPage } from 'next'
+// import type { GetStaticProps } from 'next'
 
 import { Header } from '../components/Header'
 import { Banner } from '../components/Banner'
@@ -7,21 +7,23 @@ import { Slider } from '../components/Slider'
 import { TravelTypes } from '../components/TravelTypes'
 
 import { Box, Divider, Flex } from '@chakra-ui/react'
+import { DATA } from  '../utils/continents' 
 
-import api from './api/api'
 
-interface ContinentInfo {
-  continentRef: string
-  continentName: string,
-  smallDescription: string,
-  continentBannerImage: string
-}
+// import api from './api/api'
 
-interface ContinentInfoData {
-  data: ContinentInfo[]
-}
+// interface ContinentInfo {
+//   continentRef: string
+//   continentName: string,
+//   smallDescription: string,
+//   continentBannerImage: string
+// }
 
-const Home = ({data}: ContinentInfoData) => {
+// interface ContinentInfoData {
+//   data: ContinentInfo[]
+// }
+
+const Home = () => {
   return (
     <Flex
       flexDir='column'
@@ -48,20 +50,20 @@ const Home = ({data}: ContinentInfoData) => {
          <Subtitle text="Vamos nessa?"/>
          <Subtitle text="Então escolha o seu continente"/>
        </Box>
-        <Slider continentInfoData={data}/>
+        <Slider continentInfoData={DATA.continents}/>
     </Flex>
   )
 }
 
-export const getStaticProps: GetStaticProps = async () => {
-  const response = await api.get<ContinentInfo[]>(`continents`)
-  const data =  response.data
+// export const getStaticProps: GetStaticProps = async () => {
+//   const response = await api.get<ContinentInfo[]>(`continents`)
+//   const data =  response.data
 
-  return {
-    props: {
-      data
-    }
-  }
-}
+//   return {
+//     props: {
+//       data
+//     }
+//   }
+// }
 
 export default Home

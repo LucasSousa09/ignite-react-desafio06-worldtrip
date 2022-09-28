@@ -6,36 +6,43 @@ import { GetServerSideProps } from 'next'
 
 import { ContinentDetails } from '../../components/ContinentDetails'
 import { OneHundredCities } from '../../components/OneHundredCities'
-import api from '../api/api'
 
-interface FamousCities{
-    city: string,
-    country: string,
-    flag: string,
-    image: string
-}
+import { DATA } from '../../utils/continents'
 
-interface CurrentContinentInfo{
-    continentRef: string,
-    continentName: string,
-    continentBannerImage: string,
-    continentDescription: string,
-    continentDetails: {
-        famousCitiesNumber: number,
-        languagesNumber: number,
-        countriesNumber: number
-    }
-    famousCities: FamousCities[]
-}
+// import api from '../api/api'
 
-interface CurrentContinentInfoData{
-    data: CurrentContinentInfo[],
+// interface FamousCities{
+//     city: string,
+//     country: string,
+//     flag: string,
+//     image: string
+// }
+
+// interface CurrentContinentInfo{
+//     continentRef: string,
+//     continentName: string,
+//     continentBannerImage: string,
+//     continentDescription: string,
+//     continentDetails: {
+//         famousCitiesNumber: number,
+//         languagesNumber: number,
+//         countriesNumber: number
+//     }
+//     famousCities: FamousCities[]
+// }
+
+// interface CurrentContinentInfoData{
+//     data: CurrentContinentInfo[],
+//     continentUrl: string
+// }
+
+interface ContinentUrl {
     continentUrl: string
 }
 
 
-export default function Continents({data, continentUrl}: CurrentContinentInfoData){
-    const contientInfo = data.map(data => {
+export default function Continents({continentUrl}: ContinentUrl){
+    const contientInfo = DATA.continents.map(data => {
         if(data.continentRef === continentUrl){
             return data
         }
@@ -67,13 +74,13 @@ export default function Continents({data, continentUrl}: CurrentContinentInfoDat
 
 
 export const getServerSideProps: GetServerSideProps = async ({req}) => {
-    const response = await api.get(`continents`)
-    const data  = response.data
+    // const response = await api.get(`continents`)
+    // const data  = response.data
     const continentUrl = req.url?.replace('/continents/', '')
 
     return{
         props: {
-            data,
+            // data,
             continentUrl
         }
     }
