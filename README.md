@@ -1,6 +1,7 @@
 # worldtrip
 
-O primeiro desafio do 4º módulo da trilha de React da Rocketseat
+- O primeiro desafio do 4º módulo da trilha de React da Rocketseat
+- Disponível em https://worldtrip-azure.vercel.app/
 
 ![image](https://github.com/LucasSousa09/worldtrip/blob/main/public/images/screenprints/worldtrip-homepage-1.png)
 
