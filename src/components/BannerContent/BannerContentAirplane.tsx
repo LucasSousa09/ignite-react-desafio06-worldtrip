@@ -22,6 +22,7 @@ export function BannerContentAirplane({bannerTitle}: BannerContentAirplaneProps)
                         alt="Avião Amarelo"
                         w='417px'
                         h='270px'
+                        marginLeft='5rem'
                         marginBottom='-2rem'
                     />
                 )

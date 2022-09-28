@@ -18,9 +18,11 @@ export function BannerContent({bannerTitle}: BannerContentProps){
                 columns={[1,1,1,2]}
                 alignContent={bannerTitle ? 'flex-end' : 'center'}
                 justifyItems='center'
-           
-                w="100%"
-                h="100%"
+
+                px={['0px','0px','0px','4rem']}
+
+                maxW="1540px"
+                mx='auto'
             >
                 <BannerContentText bannerTitle={bannerTitle}/>
                 <BannerContentAirplane bannerTitle={bannerTitle}/>

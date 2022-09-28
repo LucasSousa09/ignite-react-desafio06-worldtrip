@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image, Text, SimpleGrid } from "@chakra-ui/react";
+import { Flex, Image} from "@chakra-ui/react";
 
 import { BannerContent } from '../BannerContent'
 
@@ -14,7 +14,7 @@ export function Banner({bannerImgSrc, bannerImgAlt, bannerTitle}: BannerProps ){
         <Flex
             position='relative'
             width='100%'
-            height={[ '163px', '220px' ,bannerImgSrc ? '500px' : '370px']}
+            height={[ '163px', '220px' , bannerImgSrc ? '500px' : '370px']}
             flexDir='column'
             backgroundRepeat='no-repeat'
             backgroundPosition='center'

@@ -22,10 +22,8 @@ interface ContinentInfoData {
 
 
 export function Slider({ continentInfoData }: ContinentInfoData){
-    const isSmallerThan768 = useMediaQuery('(max-width: 768px)')
-
     return (
-        <Box width={['100%','100%','80%']} h={['250px', 'auto']}  backgroundColor='gray.700' mb='5rem'>
+        <Box width={['100%','100%','100%','80%']} maxW='1280px' h={['250px', 'auto']}  backgroundColor='gray.700' mb='5rem'>
             <Swiper
                 modules={[Navigation, EffectFade, Pagination, Autoplay]}
                 navigation
