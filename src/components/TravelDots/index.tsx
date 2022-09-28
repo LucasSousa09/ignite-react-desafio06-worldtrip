@@ -1,4 +1,4 @@
-import { Icon, Text } from "@chakra-ui/react";
+import { Flex, Icon, Text } from "@chakra-ui/react";
 import { BsFillCircleFill } from "react-icons/bs";
 
 interface TravelDotsProps {
@@ -7,9 +7,11 @@ interface TravelDotsProps {
 
 export function TravelDots({title}: TravelDotsProps){
   return (
-    <Text as='a' href='#' fontSize='1.125rem' fontWeight='500' color='gray.dark-text'>
-    <Icon color='yellow.highlight' fontSize='8px' mr='8px' as={BsFillCircleFill}/> 
-      {title}
-    </Text>
+    <Flex as='a' flexDir='row' alignItems='center' href='#'>
+      <Icon color='yellow.highlight' fontSize='8px' mr='8px' as={BsFillCircleFill}/> 
+      <Text fontSize='1.125rem' fontWeight='500' color='gray.dark-text' m='0'>
+        {title}
+      </Text>
+    </Flex>
   )
 }

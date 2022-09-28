@@ -1,7 +1,6 @@
-import { SimpleGrid, useMediaQuery, Text, Icon } from "@chakra-ui/react";
+import { SimpleGrid, useMediaQuery } from "@chakra-ui/react";
 import { TravelIcon } from '../TravelIcon'
 
-import { BsFillCircleFill } from 'react-icons/bs'
 import { TravelDots } from "../TravelDots";
 
 export function TravelTypes(){
