@@ -19,8 +19,8 @@ export function OneHundredCities({famousCities}: OneHundredCitiesProps){
     return(
         <Flex
             flexDir={'column'}
-            maxW='1160px'
-            w='80%'
+            maxW='1280px'
+            w='90%'
             m='0 auto 5rem'
         >
         <Text

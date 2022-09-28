@@ -58,7 +58,7 @@ export default function Continents({continentUrl}: ContinentUrl){
                  bannerTitle={contientInfo[0]?.continentName}
                 />
             }
-            <SimpleGrid w={['90%','90%','80%']} m='5rem auto' columns={[1,1,1,2]}>
+            <SimpleGrid maxW='1280px' w='90%' m='5rem auto' columns={[1,1,1,2]}>
                 <Text
                  color='gray.dark-text'
                  fontSize={['1rem','1.25rem','1.5rem']}

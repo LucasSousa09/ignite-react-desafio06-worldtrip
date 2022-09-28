@@ -25,9 +25,11 @@ export function ContinentDetailsCard({cardName, cardNumber}: ContinentDetailsCar
                 alignItems='center'
             >
                     <Text
+                        textAlign='left'
                         fontWeight={['400','500','600']}
                         color='gray.dark-text'
                         fontSize={['1rem','1.25rem','1.5rem']}
+                        noOfLines={1}
                     >
                         {cardName}
                     </Text>

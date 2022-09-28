@@ -17,7 +17,7 @@ export function BannerContentText({bannerTitle}: BannerContentTextProps){
             {
                 bannerTitle 
                 ?
-                <Heading color='#fff' fontWeight='600' fontSize={['1.75rem','2rem', '2.5rem']}  >{bannerTitle}</Heading>
+                <Heading position='absolute' bottom={['1rem','1rem', '3rem']} left={['1rem','1rem','4rem','8rem']} color='#fff' fontWeight='600' fontSize={['1.75rem','2rem', '2.5rem']}  >{bannerTitle}</Heading>
                 :
                 (
                     <>
