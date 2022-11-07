@@ -3,7 +3,7 @@
         {
             "continentRef": "europa",
             "continentName": "Europa",
-            "smallDescription": "O continente mais romantico do mundo",
+            "smallDescription": "O continente mais romântico do mundo",
             "continentDescription": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
             "continentBannerImage": "https://images.unsplash.com/photo-1482401204742-eb3c31c24722?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=942&q=80",
             "continentDetails": {
@@ -204,7 +204,7 @@
             "continentRef": "america-do-norte",
             "continentName": "América do Norte",
             "smallDescription": "A parte norte do maior continente de norte a sul",
-            "continentDescription": "A América do Norte é dona de lugares incríveis, cheios de histórias, belezas naturais e atrações para todos os gostos, estilos e bolsos nela você vai encontrar cidades exuberantes, praias de tirar o fôlego, centros de compras, além de história, cultura e muita badalação.",
+            "continentDescription": "A América do Norte é dona de lugares incríveis, cheios de histórias, belezas naturais e atrações para todos os gostos, estilos e bolsos, nela você vai encontrar cidades exuberantes, praias de tirar o fôlego, centros de compras, além de história, cultura e muita badalação.",
             "continentBannerImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
             "continentDetails": {
                 "countriesNumber": 3,
